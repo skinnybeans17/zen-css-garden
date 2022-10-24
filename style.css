@@ -1,0 +1,105 @@
+body{
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 1.5;
+    color: green;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: tomato;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: tomato;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+h3{
+    font-family: 'Times New Roman', Times, serif;
+    color: tomato;
+    text-align: center;
+    font-size: 24px;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p{
+    text-shadow: 1px 1px lightgreen;
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+footer{
+    background-color: wheat;
+    border-color: thistle;
+    text-align: center;
+    border-radius: 10px;
+    border-style: dotted;
+}
+
+.sidebar{
+    text-align: center;
+    background-color: orange;
+    border-radius: 10px;
+    border-color: brown;
+    border-style: solid;
+    float: right;
+}
+
+ul{
+    list-style: none;
+}
+
+.intro{
+    background-color: yellowgreen;
+    border-radius: 10px;
+    border-color: limegreen;
+    border-style: solid;
+    float: left;
+}
+
+.main-supporting{
+    background-color: tan;
+    border-radius: 10px;
+    border-color: goldenrod;
+    border-style: solid;
+    float: left;
+}
+
+a{
+    color: purple;
+}
+
+a:hover{
+    color: violet
+}
+
+.design-name{
+    color: tomato;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.designer-name{
+    color: cornflowerblue;
+    font-size: 1rem;
+    text-transform: capitalize;
+}
+
+.design-selection{
+    color: #333;
+    font-size: 1.5rem;
+}
