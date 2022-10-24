@@ -103,3 +103,100 @@ a:hover{
     color: #333;
     font-size: 1.5rem;
 }
+
+a {
+    display: inline-block;
+	padding: 0.5em 1em;
+	margin: 0.5em;
+	border: 3px solid orange;
+	border-radius: 0.5em;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: gold;
+}
+
+footer > a {
+	display: block;
+	border: 1px solid;
+	flex: 1;
+	height: 200px;
+	margin: 10px;
+	box-shadow: 0 0 12px rgba(0, 0, 0, 0.392);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 48px;
+	text-decoration: none;
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+}
+
+.design-selection ul > li {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	border: 1px solid;
+	padding: 10px;
+	font-size: 40px;
+	margin: 5px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.317);
+}
+
+.design-selection ul > li > a {
+	font-size: 1rem;
+	text-decoration: none;
+	margin-bottom: 1em;
+	height: 3em;
+}
+
+.design-selection ul > li > a.design-name {
+	font-size: 1rem;
+	text-decoration: none;
+	margin-bottom: 1em;
+	height: 3em;
+}
+
+.design-selection ul > li > a.designer-name {
+	font-size: 1rem;
+	text-decoration: none;
+	margin-bottom: 1em;
+	height: 3em;
+}
+
+.design-selection ul > li > a:last-child {
+	align-self: flex-end;
+	margin-top: 1em;
+	margin-bottom: 0;
+}
+
+.zen-resources {
+	display: flex;
+	flex-direction: column;
+	border: 1px solid;
+	width: 200px;
+}
+
+.zen-resources h3 {
+	margin: 0;
+	text-align: center;
+	padding: 1em;
+	margin-bottom: 1em;
+	background-color: #000;
+	color: #fff;
+}
+
+.zen-resources ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 1em;
+}
+
+.zen-resources a {
+	text-decoration: none;
+	padding: 0.25em 1em;
+	display: block;
+}
