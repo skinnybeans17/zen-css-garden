@@ -176,7 +176,6 @@ footer {
 	flex-direction: column;
 	border: 1px solid;
 	width: 200px;
-    display: block;
 }
 
 .zen-resources h3 {
@@ -198,13 +197,14 @@ footer {
 .zen-resources a {
 	text-decoration: none;
 	padding: 0.25em 1em;
+    display: block;
 }
 
 .page-wrapper {
 	display: grid;
 	grid-template-areas: "h h h"
 	                     "m m s"
-											 "f f f";
+						"f f f";
 	grid-template-columns: 1fr 1fr 1fr;
 	gap: 2rem;
 }
@@ -213,7 +213,7 @@ footer {
 	grid-area: h;
 }
 
-.main {
+.main-supporting {
 	grid-area: m;
 }
 
