@@ -56,7 +56,6 @@ footer{
     border-radius: 10px;
     border-color: brown;
     border-style: solid;
-    float: right;
 }
 
 ul{
@@ -68,7 +67,6 @@ ul{
     border-radius: 10px;
     border-color: limegreen;
     border-style: solid;
-    float: left;
 }
 
 .main-supporting{
@@ -76,7 +74,6 @@ ul{
     border-radius: 10px;
     border-color: goldenrod;
     border-style: solid;
-    float: left;
 }
 
 a{
@@ -91,6 +88,7 @@ a:hover{
     color: tomato;
     font-size: 2rem;
     text-transform: uppercase;
+
 }
 
 .designer-name{
@@ -140,7 +138,7 @@ footer {
 	align-items: center;
 	border: 1px solid;
 	padding: 10px;
-	font-size: 40px;
+	font-size: 36px;
 	margin: 5px;
 	box-shadow: 0 0 5px rgba(0, 0, 0, 0.317);
 }
@@ -177,6 +175,7 @@ footer {
 	flex-direction: column;
 	border: 1px solid;
 	width: 200px;
+    display: block;
 }
 
 .zen-resources h3 {
@@ -198,5 +197,77 @@ footer {
 .zen-resources a {
 	text-decoration: none;
 	padding: 0.25em 1em;
-	display: block;
+}
+
+@media print {
+    body {
+      font-size: 16px;
+    }
+}
+
+@media screen {
+  body {
+    font-size: 20px;
+  }
+}
+
+@media screen, print {
+  body {
+    line-height: 1.2;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) and (resolution: 150dpi) {
+  body {
+    line-height: 1.4;
+  }
+}
+
+@media print {
+    body {
+      color: green;
+      background-color: orange;
+    }
+}
+
+@media screen {
+    body {
+      color: green;
+    }
+}
+
+.page-wrapper {
+	display: grid;
+	grid-template-areas: "h h h"
+	                     "m m s"
+											 "f f f";
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 2rem;
+}
+
+.intro {
+	grid-area: h;
+}
+
+.main {
+	grid-area: m;
+}
+
+.side-bar {
+	grid-area: s;
+}
+
+.footer {
+	grid-area: f;
+}
+
+@media (max-width: 1000px) {
+	.wrapper {
+		grid-template-areas: "h h h"
+		                     "s s s"
+	                       "m m m"
+											   "f f f";
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 2rem;
+	}
 }
