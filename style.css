@@ -1,11 +1,15 @@
 body{
-    background-color: aquamarine;
+	background: aquamarine;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 18px;
     line-height: 1.5;
     color: green;
     margin-top: 0;
     margin-bottom: 1rem;
+	background-image: url(images/background.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 h1{
@@ -15,6 +19,15 @@ h1{
     font-size: 40px;
     margin-top: 0;
     margin-bottom: 1rem;
+	background-image:
+			url(images/cloud.png),
+			url(images/cloud.png);
+	background-size: 90px, 90px;
+	background-repeat: no-repeat, no-repeat;
+	background-position: left center, right center;
+	display: inline-block;
+	padding-left: 100px;
+	padding-right: 100px;
 }
 
 h2{
@@ -82,7 +95,8 @@ a{
 }
 
 a:hover{
-    color: violet
+    color: violet;
+	background-color: orangered;
 }
 
 .design-name{
@@ -112,6 +126,116 @@ a {
 	color: #ffffff;
 	text-decoration: none;
 	background-color: gold;
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: right center;
+}
+
+a.zen-validate-html {
+    display: inline-block;
+	padding: 0.5em 1em;
+	margin: 0.5em;
+	border: 3px solid orange;
+	border-radius: 0.5em;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: gold;
+	background-image: url(images/html.png);
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 0;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+a.zen-validate-css {
+    display: inline-block;
+	padding: 0.5em 1em;
+	margin: 0.5em;
+	border: 3px solid orange;
+	border-radius: 0.5em;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: gold;
+	background-image: url(images/css.png);
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 0;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+a.zen-license {
+    display: inline-block;
+	padding: 0.5em 1em;
+	margin: 0.5em;
+	border: 3px solid orange;
+	border-radius: 0.5em;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: gold;
+	background-image: url(images/creative.png);
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 0;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+a.zen-accessibility {
+    display: inline-block;
+	padding: 0.5em 1em;
+	margin: 0.5em;
+	border: 3px solid orange;
+	border-radius: 0.5em;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: gold;
+	background-image: url(images/accessibility.png);
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 0;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+a.zen-github {
+    display: inline-block;
+	padding: 0.5em 1em;
+	margin: 0.5em;
+	border: 3px solid orange;
+	border-radius: 0.5em;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: gold;
+	background-image: url(images/github.png);
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-size: 0;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.summary > a {
+    display: inline-block;
+	padding: 0.5em 1em;
+	margin: 0.5em;
+	border: 3px solid orange;
+	border-radius: 0.5em;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: gold;
+	background-image: url(images/file-download.png);
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
+
+	padding-right: 50px;
 }
 
 footer > a {
@@ -126,6 +250,24 @@ footer > a {
 	align-items: center;
 	font-size: 40px;
 	text-decoration: none;
+}
+
+.css-gen-garden > a {
+	display: inline-block;
+	padding: 0.5em 1em;
+	margin: 0.5em;
+	border: 3px solid orange;
+	border-radius: 0.5em;
+	color: #ffffff;
+	text-decoration: none;
+	background-color: gold;
+	background-size: 30px;
+	background-repeat: no-repeat;
+	background-position: right center;
+	background-image: url(images/file-download.png);
+	background-size: 100px;
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 footer {
@@ -236,4 +378,12 @@ footer {
         grid-template-columns: 1fr 1fr 1fr;
         gap: 2rem;
 	}
+}
+
+.explanation{
+	background-image: url(images/trees.png);
+	background-position: center bottom -20px;
+	padding-bottom: 40px;
+	background-size: 50%;
+	background-repeat: no-repeat;
 }
